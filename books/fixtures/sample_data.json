@@ -1,0 +1,128 @@
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "name": "Лев Толстой",
+      "country": "Россия",
+      "birth_date": "1828-09-09"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+      "name": "Федор Достоевский",
+      "country": "Россия",
+      "birth_date": "1821-11-11"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 3,
+    "fields": {
+      "name": "George Orwell",
+      "country": "UK",
+      "birth_date": "1903-06-25"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "title": "Война и мир",
+      "isbn": "9785170123456",
+      "publication_year": 2015,
+      "pages": 1225,
+      "author": 1,
+      "genre": "fiction"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "title": "Анна Каренина",
+      "isbn": "9785170123457",
+      "publication_year": 2012,
+      "pages": 864,
+      "author": 1,
+      "genre": "fiction"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "title": "Преступление и наказание",
+      "isbn": "9785170123458",
+      "publication_year": 2011,
+      "pages": 430,
+      "author": 2,
+      "genre": "fiction"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "title": "Идиот",
+      "isbn": "9785170123459",
+      "publication_year": 2013,
+      "pages": 640,
+      "author": 2,
+      "genre": "fiction"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "title": "1984",
+      "isbn": "9785170123460",
+      "publication_year": 2008,
+      "pages": 328,
+      "author": 3,
+      "genre": "sci_fi"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "title": "Animal Farm",
+      "isbn": "9785170123461",
+      "publication_year": 2010,
+      "pages": 112,
+      "author": 3,
+      "genre": "fiction"
+    }
+  },
+  {
+    "model": "books.reader",
+    "pk": 1,
+    "fields": {
+      "name": "Иван Иванов",
+      "email": "ivan@example.com",
+      "registration_date": "2024-01-15"
+    }
+  },
+  {
+    "model": "books.reader",
+    "pk": 2,
+    "fields": {
+      "name": "Петр Петров",
+      "email": "petr@example.com",
+      "registration_date": "2024-02-20"
+    }
+  },
+  {
+    "model": "books.reader",
+    "pk": 3,
+    "fields": {
+      "name": "Мария Сидорова",
+      "email": "maria@example.com",
+      "registration_date": "2024-03-10"
+    }
+  }
+]
